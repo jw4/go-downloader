@@ -31,7 +31,7 @@ const (
 
 // nolint: gochecknoglobals
 var (
-	skipVersions = []string{"go1.2"}
+	skipVersions = []string{ /* "go1.16.4", "go1.15" */ }
 	skipWords    = []string{"beta", "rc"}
 	staticBuffer = make([]byte, bufferSize)
 	errOut       io.Writer
